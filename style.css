@@ -1,14 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    max-width: 960px;
+    max-width: 980px;
     margin: 0 auto;
     background: black;
     font-size: 25px;
     padding: 25px;
+    color: white;
 }
 
 .parallax {
-    background: url('https://i.imgur.com/a9kh5mS.jpg') no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 500px;
+    min-height: 500px;
+    background: transparent;
 }
