@@ -1,5 +1,14 @@
 .container {
     max-width: 960px;
     margin: 0 auto;
-    
+    background: black;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.parallax {
+    background: url('https://i.imgur.com/a9kh5mS.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
 }
