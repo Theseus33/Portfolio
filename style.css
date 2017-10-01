@@ -3,16 +3,24 @@
     padding: 0;
 }
 
+.everything {
+    background: #f0f0f0;
+}
+
 .container {
     max-width: 980px;
     margin: 0 auto;
-    background: black;
     font-size: 25px;
     padding: 25px;
-    color: white;
+    color: black;
+    background: white;
 }
 
 .parallax {
     min-height: 500px;
     background: transparent;
+}
+
+.navbar {
+    position: align-self: auto;
 }
