@@ -27,7 +27,6 @@
     position: auto;
 }
 
-
 hr {
     overflow: visible; /* For IE */
     padding: 0;
@@ -59,9 +58,13 @@ hr:after {
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
-  }
+}
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: white;
     color: red;
-  }
+}
+
+.skillsUp {
+    margin: 0 auto;
+}
