@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'Inter UI', sans-serif;
+    src: url('https://rsms.me/inter/inter-ui.css');
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Inter UI', sans-serif;
+    
 }
 
 .everything {
@@ -10,6 +17,7 @@
 .container {
     max-width: 980px;
     margin: 0 auto;
+    font-family: 'Inter UI', sans-serif;
     font-size: 25px;
     padding: 25px;
     color: black;
@@ -61,10 +69,18 @@ hr:after {
 }
   
 #myBtn:hover {
-    background-color: white;
-    color: red;
+    background-color: red;
+    color: white;
 }
 
 .skillsUp {
     margin: 0 auto;
+}
+
+h3 {
+    border: 2px solid;
+}
+
+.project-title {
+    text-decoration: bold;
 }
