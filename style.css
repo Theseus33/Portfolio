@@ -75,6 +75,7 @@ hr:after {
 
 .skillsUp {
     margin: 0 auto;
+    text-align: center;
 }
 
 h3 {
@@ -84,3 +85,12 @@ h3 {
 .project-title {
     text-decoration: bold;
 }
+
+.media-body {
+    padding: 15px;
+}
+
+.horizontalLine {
+    border-bottom: thick solid #ff0000;
+    padding-top: 5px;
+  }
