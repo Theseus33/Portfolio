@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter UI', sans-serif;
-    
 }
 
 .everything {
@@ -21,13 +20,13 @@
     font-size: 25px;
     padding: 25px;
     color: black;
-    background: white;
+    background: #FFFFFF;
 }
 
 .parallax {
     min-height: 500px;
     background: transparent;
-    color: white;
+    color: #FFFFFF;
     font-size: 35;
 }
 
@@ -39,7 +38,7 @@ hr {
     overflow: visible; /* For IE */
     padding: 0;
     border: none;
-    border-top: 3px double black;
+    border-top: 3px double #000000;
     text-align: center;
 }
 
@@ -50,7 +49,7 @@ hr:after {
     top: -1em;
     font-size: 1.5em;
     padding: 0 0.25em;
-    background: white;
+    background: #FFFFFF;
 }
 
 #myBtn {
@@ -61,16 +60,16 @@ hr:after {
     z-index: 2;
     border: none;
     outline: none;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #FFFFFF;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
 }
   
 #myBtn:hover {
-    background-color: red;
-    color: white;
+    background-color: #ff0000;
+    color: #FFFFFF;
 }
 
 .skillsUp {
@@ -78,8 +77,14 @@ hr:after {
     text-align: center;
 }
 
+.contactMe {
+    margin: 0 auto;
+    text-align: center;
+}
+
 h3 {
     border: 2px solid;
+    text-align: center;
 }
 
 .project-title {
@@ -93,4 +98,4 @@ h3 {
 .horizontalLine {
     border-bottom: thick solid #ff0000;
     padding-top: 5px;
-  }
+}
